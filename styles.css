@@ -1,0 +1,60 @@
+h1
+/*connects to the header h1*/
+{
+    color:rgba(76, 24, 24, 0.873);
+     /* changes the color to the header*/
+                            font-family:impact;
+                        /*changes the font you can choose*/
+                            text-align:center;
+                        /*this make the text in the middle*/
+                            text-shadow: 2px 2px rgb(255, 241, 241);
+                            background-color: rgb(255, 200, 200); width:1500px; height: 100px; align-self: center; align-content: center;
+                            
+                            
+}
+
+
+ p
+ /*connects to the p section*/
+{
+    border-top-style: dotted; 
+    color:rgb(152, 62, 62);
+    font-family:Georgia;
+    text-align: center;
+    
+}
+
+h2
+{
+    color:rgb(60, 21, 21);
+    font-family:Georgia;
+    text-align: left;
+    
+}
+
+
+
+p2
+{
+    color:rgb(152, 62, 62);
+    font-family:Georgia;
+    text-align: center;
+    width: 20%;
+    
+    
+}
+
+img
+{
+    float:left;
+}
+
+
+
+
+
+html 
+{
+background-color:rgb(244, 164, 164);
+}
+/*cahnges the background color of webpage*/
