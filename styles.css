@@ -26,7 +26,7 @@ h1
 
 h2
 {
-    color:rgb(60, 21, 21);
+    color:rgb(80, 34, 34);
     font-family:Georgia;
     text-align: left;
     
@@ -44,12 +44,18 @@ p2
     
 }
 
-img
+figure
 {
     float:left;
+    padding: 40px;
 }
 
-
+figure2
+{
+    float:right;
+    
+    padding: 60px;
+}
 
 
 
