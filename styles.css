@@ -8,8 +8,9 @@ h1
                             text-align:center;
                         /*this make the text in the middle*/
                             text-shadow: 2px 2px rgb(255, 241, 241);
+                            /*but cool shadow under text and get to choose color and how much shadow is shown*/
                             background-color: rgb(255, 200, 200); width:1500px; height: 100px; align-self: center; align-content: center;
-                            
+                            /*puts color behind the header, chose height, wdith, color, and to align tect in center rather than to high up of down*/
                             
 }
 
@@ -18,17 +19,26 @@ h1
  /*connects to the p section*/
 {
     border-top-style: dotted; 
+    /*puts dotted line across page above the text*/
     color:rgb(152, 62, 62);
+    /*color of the text */
     font-family:Georgia;
+    /*changes the font of text*/
     text-align: center;
+    /*aligns the text in the center*/
     
 }
 
 h2
 {
     color:rgb(80, 34, 34);
+    /*color of the text */
     font-family:Georgia;
+    /*changes the font of text*/
+    text-shadow: 2px 2px rgb(255, 204, 204);
+    /*shadow under text*/
     text-align: left;
+    /*aligns the text to the left*/
     
 }
 
@@ -45,17 +55,26 @@ p2
 }
 
 figure
+/*connect to figure on the html*/
 {
     float:left;
+    /*floats the image to the left so text and be next to the image convientent*/
+
     padding: 40px;
+    /*move image away from the right of the webpage*/
 }
 
 figure2
+/*figure two so it knows is the 2nd one on html*/
 {
     float:right;
+    /*put the image to the right of my text usefull*/
     
     padding: 60px;
+    /*moves the image farther away from the right of the page*/
 }
+
+
 
 
 
@@ -63,4 +82,4 @@ html
 {
 background-color:rgb(244, 164, 164);
 }
-/*cahnges the background color of webpage*/
+/*changes the background color of webpage*/
