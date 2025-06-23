@@ -124,7 +124,7 @@ p2
     float:right;
     /*floats the image to the left so text and be next to the image convientent*/
 
-    padding: 90px;
+    padding: 60px;
     /*move image away from the right of the webpage*/
 
     width: 300px;
@@ -135,7 +135,7 @@ p2
     float:right;
     /*floats the image to the left so text and be next to the image convientent*/
 
-    padding: 40px;
+    padding: 80px;
 
     width: 100%;
     display: block;
