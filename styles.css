@@ -130,7 +130,7 @@ p2
     width: 400px;
 }
 
-.image2-container img
+.image2-container img2
 {
     float:left;
     /*floats the image to the left so text and be next to the image convientent*/
@@ -157,12 +157,12 @@ p2
   transition: opacity 0.3s ease;
 }
 
-.image-container:hover img
+.image2-container:hover img2
 {
     transform: scale(1.1);
 }
 
-.image-container:hover .overlay 
+.image2-container:hover .overlay 
 {
   opacity: 1;
 }
