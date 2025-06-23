@@ -99,15 +99,7 @@ p2
 }
 
 
-figure
-/*connect to figure on the html*/
-{
-    float:left;
-    /*floats the image to the left so text and be next to the image convientent*/
 
-    padding: 40px;
-    /*move image away from the right of the webpage*/
-}
 
 
 
