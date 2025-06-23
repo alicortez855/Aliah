@@ -61,6 +61,15 @@ p2
 .image-container 
 {
     position:relative;
+    
+/*connect to figure on the html*/
+
+    float:left;
+    /*floats the image to the left so text and be next to the image convientent*/
+
+    padding: 40px;
+    /*move image away from the right of the webpage*/
+
     width: 300px;
 }
 
@@ -73,10 +82,8 @@ p2
 .image-container .overlay 
 {
     position: absolute;
-    /*top: 0;
-    left: 0;*/
-    float:left;
-    padding: 40px;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
