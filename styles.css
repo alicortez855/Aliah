@@ -124,7 +124,7 @@ p2
     float:right;
     /*floats the image to the left so text and be next to the image convientent*/
 
-    padding: 60px;
+    padding: 80px;
     /*move image away from the right of the webpage*/
 
     width: 300px;
@@ -146,8 +146,8 @@ p2
     position: absolute;
     top: 0;
     left: 0;
-    width: 70%;
-    height: 80%;
+    width: 60%;
+    height: 90%;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
