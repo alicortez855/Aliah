@@ -64,10 +64,10 @@ p2
     
 /*connect to figure on the html*/
 
-    float:left;
+    float:left 40px;
     /*floats the image to the left so text and be next to the image convientent*/
 
-    padding: 20px;
+    padding: 10px;
     /*move image away from the right of the webpage*/
 
     width: 300px;
