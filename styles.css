@@ -50,7 +50,7 @@ p2
     color:rgb(152, 62, 62);
     font-family:Georgia;
     text-align: center;
-    width: 20%;
+    width: 40%;
     
     
     
@@ -70,7 +70,7 @@ p2
     padding: 10px;
     /*move image away from the right of the webpage*/
 
-    width: 300px;
+    width: 400px;
 }
 
 .image-container img
