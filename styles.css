@@ -26,7 +26,8 @@ h1
     /*changes the font of text*/
     text-align: center;
     /*aligns the text in the center*/
-    
+    border: 2px solid rgb(155, 73, 73);
+    border-radius: 5px;
     
 }
 
@@ -40,8 +41,7 @@ h2
     /*shadow under text*/
     text-align: left;
     /*aligns the text to the left*/
-    border: 2px solid rgb(155, 73, 73);
-    border-radius: 5px;
+    
 }
 
 
@@ -52,6 +52,8 @@ p2
     font-family:Georgia;
     text-align: center;
     width: 20%;
+    border: 2px solid rgb(155, 73, 73);
+    border-radius: 5px;
     
     
 }
