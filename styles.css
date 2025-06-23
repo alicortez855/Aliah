@@ -11,7 +11,8 @@ h1
                             /*but cool shadow under text and get to choose color and how much shadow is shown*/
                             background-color: rgb(255, 200, 200); width:1500px; height: 100px; align-self: center; align-content: center;
                             /*puts color behind the header, chose height, wdith, color, and to align tect in center rather than to high up of down*/
-                            
+                            border: 2px solid rgb(155, 73, 73);
+                            border-radius: 5px;
 }
 
 
@@ -52,8 +53,7 @@ p2
     font-family:Georgia;
     text-align: center;
     width: 20%;
-    border: 2px solid rgb(155, 73, 73);
-    border-radius: 5px;
+    
     
     
 }
