@@ -121,7 +121,7 @@ p2
     
 /*connect to figure on the html*/
 
-    float:left;
+    float:right;
     /*floats the image to the left so text and be next to the image convientent*/
 
     padding: 70px;
@@ -132,7 +132,7 @@ p2
 
 .image2-container img2
 {
-    float:left;
+    float:right;
     /*floats the image to the left so text and be next to the image convientent*/
 
     padding: 60px;
