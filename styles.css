@@ -75,6 +75,11 @@ p2
 
 .image-container img
 {
+    float:left;
+    /*floats the image to the left so text and be next to the image convientent*/
+
+    padding: 10px;
+    
     width: 100%;
     display: block;
 }
