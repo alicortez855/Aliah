@@ -115,17 +115,56 @@ p2
 
 
 
-
-
-
-figure2
-/*figure two so it knows is the 2nd one on html*/
+.image2-container 
 {
-    float:right;
-    /*put the image to the right of my text usefull*/
+    position:relative;
     
+/*connect to figure on the html*/
+
+    float:left;
+    /*floats the image to the left so text and be next to the image convientent*/
+
+    padding: 70px;
+    /*move image away from the right of the webpage*/
+
+    width: 400px;
+}
+
+.image2-container img
+{
+    float:left;
+    /*floats the image to the left so text and be next to the image convientent*/
+
     padding: 60px;
-    /*moves the image farther away from the right of the page*/
+
+    width: 100%;
+    display: block;
+}
+
+.image2-container .overlay 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover img
+{
+    transform: scale(1.1);
+}
+
+.image-container:hover .overlay 
+{
+  opacity: 1;
 }
 
 
