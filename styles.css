@@ -143,11 +143,15 @@ p2
 
 .image2-container .overlay 
 {
+    float:right;
+    /*floats the image to the left so text and be next to the image convientent*/
+
+    padding: 100px;
     position: absolute;
     top: 0;
     left: 0;
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
