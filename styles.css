@@ -183,9 +183,6 @@ p2
 
 .image2-container .overlay 
 {
-    float:right;
-    /*floats the image to the left so text and be next to the image convientent*/
-
     position: absolute;
 
     top: 0;
