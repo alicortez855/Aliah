@@ -170,11 +170,6 @@ p2
 
 .image2-container img2
 {
-    float:right;
-    /*floats the image to the left so text and be next to the image convientent*/
-
-    padding: 60px;
-    /*distance from siddee of web*/
 
     width: 100%;
 
