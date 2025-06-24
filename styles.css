@@ -3,16 +3,24 @@ h1
 {
     color:rgba(76, 24, 24, 0.873);
      /* changes the color to the header*/
+
                             font-family:impact;
                         /*changes the font you can choose*/
+
                             text-align:center;
                         /*this make the text in the middle*/
+
                             text-shadow: 2px 2px rgb(255, 241, 241);
                             /*but cool shadow under text and get to choose color and how much shadow is shown*/
+
                             background-color: rgb(255, 200, 200); width:1500px; height: 100px; align-self: center; align-content: center;
                             /*puts color behind the header, chose height, wdith, color, and to align tect in center rather than to high up of down*/
+
                             border: 2px solid rgb(155, 73, 73);
+                            /*border around texts #goeated*/
+
                             border-radius: 5px;
+                            /*the distance from text*/
 }
 
 
@@ -21,10 +29,13 @@ h1
 {
     border-top-style: dotted; 
     /*puts dotted line across page above the text*/
+
     color:rgb(152, 62, 62);
     /*color of the text */
+
     font-family:Georgia;
     /*changes the font of text*/
+
     text-align: center;
     /*aligns the text in the center*/
     
@@ -34,10 +45,13 @@ h2
 {
     color:rgb(80, 34, 34);
     /*color of the text */
+
     font-family:Georgia;
     /*changes the font of text*/
+
     text-shadow: 2px 2px rgb(255, 204, 204);
     /*shadow under text*/
+
     text-align: left;
     /*aligns the text to the left*/
     
@@ -48,9 +62,16 @@ h2
 p2
 {
     color:rgb(152, 62, 62);
+    /*color for the text*/
+
     font-family:Georgia;
+    /*fontttt*/
+
     text-align: center;
+    /*put in center duuuuhhh*/
+
     width: 40%;
+    /*pretty sure but it on a certain part of the page?*/
     
     
     
@@ -61,8 +82,7 @@ p2
 .image-container 
 {
     position:relative;
-    
-/*connect to figure on the html*/
+    /*connect to figure on the html*/
 
     float:left;
     /*floats the image to the left so text and be next to the image convientent*/
@@ -71,6 +91,7 @@ p2
     /*move image away from the right of the webpage*/
 
     width: 400px;
+    /*not sure but quessing the width of overlay??*/
 }
 
 .image-container img
@@ -79,25 +100,41 @@ p2
     /*floats the image to the left so text and be next to the image convientent*/
 
     padding: 10px;
+    /*distance from side of webpage*/
 
     width: 100%;
+    /*width of overlay takes*/
+
     display: block;
+    /*guessing makes it a block*/
 }
 
 .image-container .overlay 
 {
     position: absolute;
+
     top: 0;
+
     left: 0;
+
     width: 100%;
+
     height: 100%;
+
   background-color: rgba(0, 0, 0, 0.5);
+
   color: white;
+
   display: flex;
+
   justify-content: center;
+
   align-items: center;
+
   opacity: 0;
+
   transition: opacity 0.3s ease;
+  /*lowkey dont know still confused figure out late*/
 }
 
 .image-container:hover img
@@ -109,17 +146,17 @@ p2
 {
   opacity: 1;
 }
+/*still dont know*/
 
 
 
-
-
+/*literally same thing as before but doesnt work??*/
 
 .image2-container 
 {
     position:relative;
     
-/*connect to figure on the html*/
+    /*connect to figure on the html*/
 
     float:right;
     /*floats the image to the left so text and be next to the image convientent*/
@@ -128,6 +165,7 @@ p2
     /*move image away from the right of the webpage*/
 
     width: 300px;
+    /*width og overlay???*/
 }
 
 .image2-container img2
@@ -136,8 +174,10 @@ p2
     /*floats the image to the left so text and be next to the image convientent*/
 
     padding: 60px;
+    /*distance from siddee of web*/
 
     width: 100%;
+
     display: block;
 }
 
@@ -146,19 +186,29 @@ p2
     float:right;
     /*floats the image to the left so text and be next to the image convientent*/
 
-    padding: 70px;
     position: absolute;
+
     top: 0;
+
     left: 0;
+
     width: 50%;
+
     height: 50%;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    color: white;
+
+    display: flex;
+
+
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+
+    transition: opacity 0.3s ease;
 }
 
 .image2-container:hover img2
